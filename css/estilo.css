@@ -5,12 +5,14 @@ body {
 .principal {
   margin: auto;
 }
-main {
-  width: 1280px;
+.principal main {
+  max-width: 1000px;
   margin: 0 auto;
   font-family: "sans-serif", "Verdana", "Arial";
   line-height: 25px;
 }
+
+/*Navegacion*/
 #encabezado {
   position: sticky;
   top: 0px;
@@ -19,7 +21,7 @@ main {
   background-color: #989898;
 }
 #contenedor {
-  width: 980px;
+  max-width: 1280px;
   margin: 0 auto;
   height: 100%;
   background-color: #989898;
@@ -32,6 +34,16 @@ main {
   width: 383px;
   vertical-align: middle;
 }
+
+footer .cont .logo {
+  display: inline-block;
+  background-image: url(../imagenes/logo_foot.png);
+  background-repeat: no-repeat;
+  height: 100px;
+  width: 383px;
+  vertical-align: top;
+}
+
 nav {
   display: inline-block;
   font-family: "sans-serif", "Verdana", "Arial";
@@ -70,6 +82,8 @@ nav .navegacion li a {
 nav .navegacion li a.activo {
   color: #bb3f45;
 }
+
+/*Fin de Navegacion*/
 h1 {
   display: none;
 }
@@ -108,10 +122,10 @@ figcaption {
   display: inline-block;
 }
 .datos {
-  display: inline-block;
-  width: 500px;
-  vertical-align: top;
+  display: block;
+  text-align: center;
   font-size: 14px;
+  padding-bottom: 10px;
 }
 .imagen {
   text-align: center;
@@ -135,10 +149,12 @@ ol {
   width: 1280px;
   margin: 0 auto;
   height: 100%;
+  padding-top: 5px;
 }
 footer {
-  background-color: #cccccc;
+  background-color: #cccccce8;
   font-family: "sans-serif", "Verdana", "Arial";
+  padding-bottom: 15px;
 }
 #menu {
   display: inline-block;
