@@ -1,0 +1,310 @@
+body {
+  background-image: url(../imagenes/descarga.jpg);
+  margin: 0;
+}
+.principal {
+  margin: auto;
+}
+main {
+  width: 1280px;
+  margin: 0 auto;
+  font-family: "sans-serif", "Verdana", "Arial";
+  line-height: 25px;
+}
+#encabezado {
+  position: sticky;
+  top: 0px;
+  height: 100px;
+  width: 100%;
+  background-color: #989898;
+}
+#contenedor {
+  width: 1280px;
+  margin: 0 auto;
+  height: 100%;
+  background-color: #989898;
+}
+#contenedor .logo {
+  display: inline-block;
+  background-image: url(../imagenes/logo.png);
+  background-repeat: no-repeat;
+  height: 100px;
+  width: 383px;
+  vertical-align: middle;
+}
+nav {
+  display: inline-block;
+  font-family: "sans-serif", "Verdana", "Arial";
+  vertical-align: middle;
+  position: relative;
+  left: 300px;
+}
+nav .navegacion {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0;
+}
+nav .navegacion li {
+  display: inline;
+  padding: 6px 20px;
+  color: white;
+  border: 1px solid white;
+  border-radius: 8px;
+  margin-right: 8px;
+}
+nav .navegacion li a {
+  text-decoration: none;
+}
+nav .navegacion li a:visited {
+  color: white;
+}
+nav .navegacion li a:hover {
+  color: #bb3f45;
+}
+nav .navegacion li a:active {
+  color: white;
+}
+nav .navegacion li a {
+  color: white;
+}
+nav .navegacion li a.activo {
+  color: #bb3f45;
+}
+h1 {
+  display: none;
+}
+h2 {
+  text-align: center;
+  color: #bb3f45;
+  font-size: 24px;
+}
+h3 {
+  font-size: 22px;
+  color: #bb3f45;
+}
+.izq {
+  display: inline-block;
+  width: 500px;
+  vertical-align: top;
+  font-size: 16px;
+}
+.der {
+  display: inline-block;
+  width: 500px;
+  vertical-align: bottom;
+  text-align: right;
+}
+figcaption {
+  font-size: 14px;
+  font-style: italic;
+  text-align: center;
+}
+#instru {
+  font-family: "sans-serif", "Verdana", "Arial";
+  line-height: 25px;
+  font-size: 16px;
+}
+.gaita {
+  display: inline-block;
+}
+.datos {
+  display: inline-block;
+  width: 500px;
+  vertical-align: top;
+  font-size: 14px;
+}
+.imagen {
+  text-align: center;
+}
+.videos {
+  text-align: center;
+}
+.videos iframe {
+  border: 0px;
+}
+#datos,
+#redes {
+  font-family: "sans-serif", "Verdana", "Arial";
+}
+ol {
+  font-family: "sans-serif", "Verdana", "Arial";
+  line-height: 25px;
+}
+.cont {
+  text-align: left;
+  width: 1280px;
+  margin: 0 auto;
+  height: 100%;
+}
+footer {
+  background-color: #cccccc;
+  font-family: "sans-serif", "Verdana", "Arial";
+}
+#menu {
+  display: inline-block;
+  list-style-type: none;
+}
+#menu li a {
+  color: #bb3f45;
+  text-decoration: none;
+}
+#menu li a:hover {
+  border-bottom: 1px solid brown;
+}
+#redes li {
+  display: inline-block;
+}
+#redes li a {
+  display: inline-block;
+  background-image: url(../imagenes/sprite.png);
+  border-radius: 6px;
+  width: 25px;
+  height: 25px;
+  font-size: 0px;
+}
+#redes #fb a {
+  background-position: 1px 25px;
+}
+#redes #fb a:hover {
+  background-position: 0px 0px;
+}
+#redes #G a {
+  background-position: -85px 27px;
+}
+#redes #G a:hover {
+  background-position: -85px 0px;
+}
+#redes #tw a {
+  background-position: -222px 25px;
+}
+#redes #tw a:hover {
+  background-position: -222px 0px;
+}
+/*Aca va lo de discografia*/
+
+#submenu {
+  position: relative;
+  display: inline-block;
+}
+#absoluta {
+  position: absolute;
+  display: none;
+  width: 80px;
+  font-size: 14px;
+  margin-bottom: 10px;
+  padding: 0;
+  left: 0;
+}
+#absoluta li {
+  position: relative;
+  display: inline-block;
+  background: #cccccc;
+  width: 100%;
+  border: none;
+  border-top: solid 1px white;
+  border-left: solid 1px white;
+  border-right: solid 1px white;
+}
+#absoluta li:last-child {
+  border-bottom: solid 1px white;
+}
+#absoluta li a {
+  color: black;
+}
+#absoluta li a:hover {
+  color: #bb3f45;
+}
+#submenu:hover #absoluta {
+  display: block;
+  margin-top: 6px;
+}
+.ancla:before {
+  content: "";
+  display: block;
+  position: relative;
+  width: 0;
+  height: 120px;
+  margin-top: -120px;
+}
+ol li {
+  font-family: "Verdana", "Arial";
+  font-size: 16px;
+}
+.izquierda {
+  display: inline-block;
+  width: 60%;
+}
+.derecha {
+  display: inline-block;
+  width: 39%;
+  vertical-align: bottom;
+}
+img {
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+/*Seccion Noticias*/
+#fechas {
+  font-family: "sans-serif", "Verdana", "Arial";
+  line-height: 25px;
+  color: green;
+}
+#fechas {
+  font-family: "sans-serif", "Verdana", "Arial";
+  line-height: 25px;
+  color: green;
+}
+#fechas li:hover {
+  color: #bb3f45;
+}
+
+#alSon {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+  margin-bottom: 10px;
+}
+/*Seccion contacto*/
+#formulario {
+  margin: 0 auto;
+  width: 350px;
+}
+#formulario label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+#formulario input {
+  font-size: 16px;
+}
+#formulario .texto {
+  padding: 2px 5px;
+}
+.grupo {
+  margin-bottom: 10px;
+}
+.producto .radio {
+  display: inline-block;
+}
+textarea {
+  resize: none;
+  width: 100%;
+}
+textarea,
+.texto {
+  outline: none;
+  width: 100%;
+}
+.botones {
+  text-align: center;
+  margin-bottom: 10px;
+}
+#enviar,
+#cancelar {
+  width: 100px;
+  color: #bb3f45;
+  padding: 7px;
+  border-radius: 8px;
+  border: 1px solid rgb(169, 169, 169);
+}

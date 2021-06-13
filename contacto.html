@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<title>Hevia:la gran banda de música celta</title>
+		<link rel="stylesheet" href="css/estilo.css" />
+	</head>
+	<body>
+		<div class="principal">
+			<header id="encabezado">
+				<div id="contenedor">
+					<h1>Hevia</h1>
+					<div class="logo"></div>
+					<nav>
+						<ul class="navegacion">
+							<li><a href ="index.html">Inicio</a></li>
+							<li id="submenu"><a href="discografia.html">Discografía</a>
+								<ul id="absoluta">
+									<li><a href="#tierra">Tierra de Nadie</a></li>
+									<li><a href="#alOtroLado">Al Otro Lado</a></li>
+									<li><a href="#etnico">Étnico Ma Non Troppo</a></li>
+									<li><a href="#obse">Obsession</a></li>
+									<li><a href="#alSon">Al Son del Indianu</a></li>
+								</ul>
+							</li>	
+							<li><a href ="noticias.html">Noticias</a></li>
+							<li><a href ="contacto.html" class="activo">Contacto</a></li>
+						</ul>
+					</nav>
+				</div>
+			</header>
+			<main>
+				<h2>¡Obtené el nuevo proyecto de Hevia!</h2>
+				<p> Hevia, el gran gaitero español, lanzó su último album "Al Son del Indianu" en junio de 2018, el cual viene además con un libro, si queres consultar sobre como adquirirlo podes enviar tu consulta completando el siguiente formulario:</p>
+				<form id="formulario" action= "#" method="post" enctype="multipart/form-data"> 
+					<div class="grupo">
+						<label>Nombre y Apellido:</label>
+						<input class="texto" type="text" name="nombre" placeholder="Ingresa tu nombre" required />
+					</div>
+					<div class="grupo">
+						<label>Email:</label>
+						<input class="texto" type="email" name="email" placeholder="Ingresa tu email" required />
+					</div>
+					<div class="grupo">
+						<label>Elija su preferencia:</label>
+						<div class="producto">
+							<div class="radio"><input type="radio" name="producto" value="Album"/>Album</div>
+							<div class="radio"><input type="radio" name="producto" value="Libro"/>Libro</div>
+							<div class="radio"><input type="radio" name="producto" value="Album+Libro"/>Album+Libro</div>
+						</div>
+					</div>		
+					<div class="grupo">
+						<label>¡Escribinos tu consulta!</label>
+						<textarea class="texto" name="consulta" rows="4" cols="6"></textarea>
+					</div>
+					<div class="botones">
+						<input type="submit" value="Enviar" id="enviar" />
+						<input type="reset" value="Cancelar" id="cancelar"/>
+					</div>
+				</form>
+			</main>
+			<footer>
+				<div class="cont">
+					<p class="datos">Entrega TP2 de la alumna Débora Paniagua.<br />Profesora Mabel García, materia "Maquetado y Diseño Web" del Segundo cuatrimestre de 2018</p>
+					<ul id="menu">
+						<li><a href ="index.html">Inicio</a></li>
+						<li><a href="discografia.html">Discografía</a></li>
+						<li><a href ="noticias.html">Noticias</a></li>
+						<li><a href ="contacto.html">Contacto</a></li>
+					</ul>
+					<ul class="der" id="redes">
+						<li id="fb"><a href="https://www.facebook.com/hevia.es/" target="_blank">Facebook</a></li>
+						<li id="G"><a href="https://plus.google.com/102896232175727660126" target="_blank">Google</a></li>
+						<li id="tw"><a href="https://twitter.com/hevia100" target="_blank">Twitter</a></li>
+					</ul>
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>
